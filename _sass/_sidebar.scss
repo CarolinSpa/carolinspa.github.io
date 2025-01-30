@@ -21,7 +21,7 @@
   }
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    @include span(2.5 of 12);  // Increased from 2 of 12 for more width
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -33,7 +33,7 @@
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    padding-right: 2em;  // Added padding
   }
 
   h2, h3, h4, h5, h6 {
@@ -61,14 +61,16 @@
 
   @include breakpoint($large) {
     position: relative;
+    top: 2em;         // Added top spacing
     float: right;
     width: $right-sidebar-width-narrow;
-    margin-left: span(0.5 of 12);
+    margin-left: span(0.75 of 12);  // Increased from 0.5
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width;
+    margin-left: span(1 of 12);  // Added more space
   }
 }
 
@@ -85,9 +87,14 @@
   // height: 36px;
 
   @include breakpoint($large) {
+    width: 100%;  // Ensure proper scaling
+    max-width: $right-sidebar-width-narrow;
+    
+    /*
     display: block;
     width: auto;
     height: auto;
+    */
   }
 
   img {
@@ -96,7 +103,8 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      max-width: 100%;  // Responsive image size
+      // border: 1px solid $border-color;
     }
   }
 }
