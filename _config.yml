@@ -21,7 +21,7 @@ repository               : "carolinspa/carolinspa.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Picture.jpg"
+  avatar           : "Picture.JPG"
   name             : "Carolin Spallek"
   pronouns         : "she/her"  
   bio              : "PhD candidate in Economics"
