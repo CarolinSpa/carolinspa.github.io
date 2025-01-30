@@ -132,13 +132,13 @@ $x-large: 1920px !default;        // From 1280px
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow : 300px !default;    // From 200px
-$right-sidebar-width        : 400px !default;    // From 300px
-$right-sidebar-width-wide   : 500px !default;    // From 400px
+$right-sidebar-width-narrow : 350px !default;    // From 200px
+$right-sidebar-width        : 350px !default;    // From 300px
+$right-sidebar-width-wide   : 450px !default;    // From 400px
 
 $susy: (
   columns: 12,
-  column-width: 160px,        // From 120px to accommodate larger screens
+  column-width: 140px,        // From 120px to accommodate larger screens
   gutters: 1/3,              // Slightly larger gutters (was 1/4)
   math: fluid,
   output: float,
