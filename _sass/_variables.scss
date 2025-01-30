@@ -106,7 +106,7 @@ $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : $info-color;//mix(#000, $primary-color, 25%);
 
 
 /*
@@ -122,11 +122,11 @@ $large                      : 1200px;
 $x-large                    : 1800px;
 */
 
-$small                      : 600px !default;
-$medium                     : 768px !default;
-$medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
+$small: 768px !default;           // From 600px
+$medium: 1024px !default;         // From 768px  
+$medium-wide: 1200px !default;    // From 900px
+$large: 1440px !default;          // From 925px
+$x-large: 1920px !default;        // From 1280px
 
 /*
    Grid

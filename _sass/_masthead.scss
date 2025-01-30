@@ -41,10 +41,13 @@
   ul {
     margin: 0;
     padding: 0;
+    padding-left: 40px;
     clear: both;
     list-style-type: none;
   }
 }
+
+
 
 .masthead__menu-item {
   display: block;
@@ -52,7 +55,7 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 5.3em;
     font-weight: 700;
   }
 }
