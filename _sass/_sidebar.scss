@@ -141,10 +141,10 @@
   font-size: 0.8em;
   font-weight: normal;
   margin: 0;
-  display: inline;
+  //display: inline;
   
   @include breakpoint($large) {
-      margin-left: 5px;
+      margin-left: 10px;
       margin-bottom: 10px;
   }
 }
