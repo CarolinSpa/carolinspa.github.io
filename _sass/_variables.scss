@@ -122,24 +122,24 @@ $large                      : 1200px;
 $x-large                    : 1800px;
 */
 
-$small: 768px !default;           // From 600px
-$medium: 1024px !default;         // From 768px  
-$medium-wide: 1200px !default;    // From 900px
-$large: 1440px !default;          // From 925px
+$small: 600px !default;           // From 600px
+$medium: 768px !default;         // From 768px  
+$medium-wide: 900px !default;    // From 900px
+$large: 925px !default;          // From 925px
 $x-large: 1920px !default;        // From 1280px
 
 /*
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow : 350px !default;    // From 200px
-$right-sidebar-width        : 350px !default;    // From 300px
-$right-sidebar-width-wide   : 450px !default;    // From 400px
+$right-sidebar-width-narrow : 200px !default;    // From 200px
+$right-sidebar-width        : 300px !default;    // From 300px
+$right-sidebar-width-wide   : 400px !default;    // From 400px
 
 $susy: (
   columns: 12,
-  column-width: 140px,        // From 120px to accommodate larger screens
-  gutters: 1/3,              // Slightly larger gutters (was 1/4)
+  column-width: 120px,        // From 120px to accommodate larger screens
+  gutters: 1/4,              // Slightly larger gutters (was 1/4)
   math: fluid,
   output: float,
   gutter-position: after,
